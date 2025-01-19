@@ -49,4 +49,7 @@ const CashlessForDashboard = ({ setShowCart, paddingBottom, showMoreClickHandler
   )
 }
 
-export default CashlessForDashboard
+export default CashlessForDashboard;
+
+// {isCashless && !showAll ? <CashlessForDashboard showMoreClickHandler={()=>setShowAll(true)} setShowAll={setShowAll} setShowCart={setShowCart} paddingBottom={paddingBottom}/> : <GlobalCart globalCart={globalCart} setShowCart={setShowCart} paddingBottom={paddingBottom}/>}
+
